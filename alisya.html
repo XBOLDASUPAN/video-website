@@ -27,13 +27,21 @@
         .video-card .card-body {
             padding: 15px;
         }
-        .video-card a {
-            text-decoration: none;
-            color: #007bff;
+        .btn-primary {
+            background-color: #007bff; /* Warna latar belakang tombol */
+            border: none;
+            width: 100%;
+            color: #ffffff; /* Warna teks tombol (putih) */
             font-weight: bold;
+            text-decoration: none; /* Hilangkan underline pada teks */
+            display: inline-block; /* Pastikan tombol menampilkan teks dengan benar */
+            padding: 10px 20px; /* Padding untuk tombol */
+            border-radius: 5px; /* Sudut tombol yang melengkung */
+            transition: background-color 0.3s ease; /* Efek transisi saat hover */
         }
-        .video-card a:hover {
-            text-decoration: underline;
+        .btn-primary:hover {
+            background-color: #0056b3; /* Warna latar belakang saat dihover */
+            color: #ffffff; /* Warna teks tetap putih */
         }
         footer {
             background-color: #1f1f1f;
@@ -68,7 +76,7 @@
                 <div class="card video-card h-100">
                     <img src="assets/alisya-preview1.jpg" class="card-img-top" alt="Preview 1">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/1ed1md4r1fel" target="_blank" class="btn btn-primary w-100">Watch Video 1</a>
+                        <a href="https://dood.lu/d/1ed1md4r1fel" target="_blank" class="btn btn-primary">Watch Video 1</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +84,7 @@
                 <div class="card video-card h-100">
                     <img src="assets/alisya-preview2.jpg" class="card-img-top" alt="Preview 2">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/984r0fs3lu1q" target="_blank" class="btn btn-primary w-100">Watch Video 2</a>
+                        <a href="https://dood.lu/d/984r0fs3lu1q" target="_blank" class="btn btn-primary">Watch Video 2</a>
                     </div>
                 </div>
             </div>
