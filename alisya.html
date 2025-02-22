@@ -16,6 +16,9 @@
             border: 1px solid #333;
             border-radius: 8px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%; /* Pastikan card memiliki tinggi yang sama */
+            display: flex;
+            flex-direction: column;
         }
         .video-card:hover {
             transform: translateY(-10px);
@@ -23,9 +26,16 @@
         }
         .video-card img {
             border-radius: 8px 8px 0 0;
+            width: 100%; /* Lebar gambar 100% dari card */
+            height: 200px; /* Atur tinggi gambar */
+            object-fit: cover; /* Pastikan gambar mengisi area tanpa terdistorsi */
         }
         .video-card .card-body {
             padding: 15px;
+            flex-grow: 1; /* Pastikan card-body mengisi sisa ruang di card */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Tombol tetap di bagian bawah */
         }
         .btn-primary {
             background-color: #007bff; /* Warna latar belakang tombol */
