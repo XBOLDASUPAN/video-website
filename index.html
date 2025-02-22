@@ -26,28 +26,29 @@
         .nav-link:hover {
             color: #007bff !important;
         }
-        .video-card {
+        .category-card {
             background-color: #1f1f1f;
             border: 1px solid #333;
             border-radius: 8px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 20px;
+            text-align: center;
         }
-        .video-card:hover {
+        .category-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
         }
-        .video-card img {
-            border-radius: 8px 8px 0 0;
+        .category-card img {
+            border-radius: 8px;
+            width: 100%;
+            height: auto;
         }
-        .video-card .card-body {
-            padding: 15px;
-        }
-        .video-card a {
+        .category-card a {
             text-decoration: none;
             color: #007bff;
             font-weight: bold;
         }
-        .video-card a:hover {
+        .category-card a:hover {
             text-decoration: underline;
         }
         footer {
@@ -59,14 +60,6 @@
         }
         h1, h2 {
             color: #ffffff;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-            width: 100%;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
         }
     </style>
 </head>
@@ -82,54 +75,40 @@
     <div class="container my-5">
         <h1 class="text-center mb-4">Video Gallery</h1>
 
-        <!-- Alisya Section -->
-        <h2 class="mb-4">Alisya</h2>
+        <!-- Category Cards -->
         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Alisya Category -->
             <div class="col">
-                <div class="card video-card h-100">
-                    <img src="alisya/preview1.jpg" class="card-img-top" alt="Preview 1">
+                <div class="card category-card h-100">
+                    <img src="assets/alisya-preview1.jpg" class="card-img-top" alt="Alisya Preview">
                     <div class="card-body">
-                        <a href="alisya/video1.html" class="btn btn-primary">Watch Video 1</a>
+                        <h2>Alisya</h2>
+                        <a href="alisya.html" class="btn btn-primary w-100">View Videos</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card video-card h-100">
-                    <img src="alisya/preview2.jpg" class="card-img-top" alt="Preview 2">
-                    <div class="card-body">
-                        <a href="alisya/video2.html" class="btn btn-primary">Watch Video 2</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more cards here -->
-        </div>
 
-        <!-- Ukhti Viral Section -->
-        <h2 class="mt-5 mb-4">Ukhti Viral</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Ukhti Viral Category -->
             <div class="col">
-                <div class="card video-card h-100">
-                    <img src="ukhti-viral/preview7.jpg" class="card-img-top" alt="Preview 7">
+                <div class="card category-card h-100">
+                    <img src="assets/ukhti-preview1.jpg" class="card-img-top" alt="Ukhti Viral Preview">
                     <div class="card-body">
-                        <a href="ukhti-viral/video7.html" class="btn btn-primary">Watch Video 7</a>
+                        <h2>Ukhti Viral</h2>
+                        <a href="ukhti-viral.html" class="btn btn-primary w-100">View Videos</a>
                     </div>
                 </div>
             </div>
-            <!-- Add more cards here -->
-        </div>
 
-        <!-- Tasya t0kbrut Section -->
-        <h2 class="mt-5 mb-4">Tasya t0kbrut</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Tasya t0kbrut Category -->
             <div class="col">
-                <div class="card video-card h-100">
-                    <img src="tasya/preview12.jpg" class="card-img-top" alt="Preview 12">
+                <div class="card category-card h-100">
+                    <img src="assets/tasya-preview1.jpg" class="card-img-top" alt="Tasya t0kbrut Preview">
                     <div class="card-body">
-                        <a href="tasya/video12.html" class="btn btn-primary">Watch Video 12</a>
+                        <h2>Tasya t0kbrut</h2>
+                        <a href="tasya.html" class="btn btn-primary w-100">View Videos</a>
                     </div>
                 </div>
             </div>
-            <!-- Add more cards here -->
         </div>
     </div>
 
