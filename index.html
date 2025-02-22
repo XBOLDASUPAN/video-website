@@ -12,36 +12,61 @@
     <!-- Custom CSS -->
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
         }
         .navbar {
-            background-color: #343a40 !important;
+            background-color: #1f1f1f !important;
+            border-bottom: 1px solid #333;
         }
         .navbar-brand, .nav-link {
-            color: #fff !important;
+            color: #ffffff !important;
+        }
+        .nav-link:hover {
+            color: #007bff !important;
         }
         .video-card {
+            background-color: #1f1f1f;
+            border: 1px solid #333;
+            border-radius: 8px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .video-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
         }
         .video-card img {
             border-radius: 8px 8px 0 0;
         }
+        .video-card .card-body {
+            padding: 15px;
+        }
         .video-card a {
             text-decoration: none;
             color: #007bff;
+            font-weight: bold;
         }
         .video-card a:hover {
             text-decoration: underline;
         }
         footer {
-            background-color: #343a40;
-            color: #fff;
+            background-color: #1f1f1f;
+            color: #ffffff;
             padding: 20px 0;
             margin-top: 40px;
+            border-top: 1px solid #333;
+        }
+        h1, h2 {
+            color: #ffffff;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            width: 100%;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -80,7 +105,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 1">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/1ed1md4r1fel" target="_blank" class="btn btn-primary w-100">Watch Video 1</a>
+                        <a href="https://dood.lu/d/1ed1md4r1fel" target="_blank" class="btn btn-primary">Watch Video 1</a>
                     </div>
                 </div>
             </div>
@@ -88,7 +113,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 2">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/984r0fs3lu1q" target="_blank" class="btn btn-primary w-100">Watch Video 2</a>
+                        <a href="https://dood.lu/d/984r0fs3lu1q" target="_blank" class="btn btn-primary">Watch Video 2</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +121,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 3">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/ocz6wt47t6m2" target="_blank" class="btn btn-primary w-100">Watch Video 3</a>
+                        <a href="https://dood.lu/d/ocz6wt47t6m2" target="_blank" class="btn btn-primary">Watch Video 3</a>
                     </div>
                 </div>
             </div>
@@ -110,7 +135,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 7">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/q2fidngyo2gm" target="_blank" class="btn btn-primary w-100">Watch Video 7</a>
+                        <a href="https://dood.lu/d/q2fidngyo2gm" target="_blank" class="btn btn-primary">Watch Video 7</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +143,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 8">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/pv64o6f6yd89" target="_blank" class="btn btn-primary w-100">Watch Video 8</a>
+                        <a href="https://dood.lu/d/pv64o6f6yd89" target="_blank" class="btn btn-primary">Watch Video 8</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +157,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 12">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/w5y00ex6nq1c" target="_blank" class="btn btn-primary w-100">Watch Video 12</a>
+                        <a href="https://dood.lu/d/w5y00ex6nq1c" target="_blank" class="btn btn-primary">Watch Video 12</a>
                     </div>
                 </div>
             </div>
@@ -140,7 +165,7 @@
                 <div class="card video-card h-100">
                     <img src="https://via.placeholder.com/300" class="card-img-top" alt="Preview 13">
                     <div class="card-body">
-                        <a href="https://dood.lu/d/ptehwiq5gyqm" target="_blank" class="btn btn-primary w-100">Watch Video 13</a>
+                        <a href="https://dood.lu/d/ptehwiq5gyqm" target="_blank" class="btn btn-primary">Watch Video 13</a>
                     </div>
                 </div>
             </div>
